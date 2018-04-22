@@ -20,6 +20,7 @@ public class LoginController {
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public String defaultPage(LoginBean loginBean,BindingResult bindingResult) {
+		//start project
 			return "index";
 	}
 	
